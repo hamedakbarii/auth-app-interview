@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "./dashboard.module.scss";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Dashboard = () => {
