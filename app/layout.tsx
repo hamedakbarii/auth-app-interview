@@ -27,7 +27,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <main>{children}</main>
+
+        <footer
+          style={{
+            textAlign: "center",
+            marginTop: "3rem",
+            fontSize: "0.9rem",
+            color: "#555",
+          }}
+        >
+          Made with ❤️ by{" "}
+          <a href="https://hamedakbri.ir" className="font-bold">
+            Hamed Akbari
+          </a>
+        </footer>
       </body>
     </html>
   );
